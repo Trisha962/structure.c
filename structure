@@ -1,0 +1,59 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+struct employee{
+	char name[50];
+	char department[50];
+	int number[50];
+	int age[50];
+	float salary[50];
+};
+int main()
+{
+	struct employee emp1;
+	struct employee emp2;
+	struct employee emp3;
+	struct employee emp4;
+	
+   strcpy( emp1.name, "Chirag");
+   strcpy( emp1.age, "34"); 
+   strcpy( emp1.number, "9898103288");
+   strcpy( emp1.department, "IT");
+   strcpy( emp1.salary, " 40000");
+   
+   
+  
+   
+   strcpy(emp2.name, "Abhinav");
+   strcpy(emp2.age, "25"); 
+   strcpy(emp2.number, "7600835672");
+   strcpy(emp2.department, "IT");
+  
+  
+   strcpy(emp3.name, "Chirag");
+   strcpy(emp3.age, "56"); 
+   strcpy(emp3.department, "IT");
+   strcpy(emp3.number, "7600835672");
+   strcpy(emp3.salary, " 40000");
+  
+  
+   strcpy(emp4.name, " Henal");
+   strcpy(emp4.age, "28"); 
+   strcpy(emp4.number, "7600835672");
+   strcpy(emp4.department, "IT");
+   strcpy(emp4.salary, " 40000");
+   
+   printf("NAME         AGE        PHONE NUMBER     SALARY");
+   
+   printf("\nChirag       34          9898103288       40000  ");
+   printf("\nAbhinav      25          7600835672       40000");
+   printf("\nChirag       56          7600835672       40000");
+   printf("\nHenal        28          7600835672       40000");
+  
+  
+
+  
+   return 0;
+
+	
+}
